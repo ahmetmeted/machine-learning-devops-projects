@@ -1,0 +1,11 @@
+name: test_regression_model
+
+entry_points:
+  main:
+    parameters:
+      model_uri: {type: str}
+      test_csv: {type: str}
+    command: >
+      python run.py
+      --model_uri {model_uri}
+      --test_csv {test_csv}

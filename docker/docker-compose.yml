@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  # FastAPI Service
+  fastapi-app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./ml_model_to_cloud_application_platform_with_FastAPI:/app/ml_model_to_cloud_application_platform_with_FastAPI
+    working_dir: /app/ml_model_to_cloud_application_platform_with_FastAPI
+    command: python main.py
+    environment:
+      - PYTHONPATH=/app
+
+  # Flask Risk Assessment Service
+  risk-assessment:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./dynamic-risk-assessment-system:/app/dynamic-risk-assessment-system
+    working_dir: /app/dynamic-risk-assessment-system
+    command: python app.py
+    environment:
+      - PYTHONPATH=/app
+
+  # ML Pipeline Service
+  ml-pipeline:
+    build: .
+    volumes:
+      - ./build-ml-pipeline-for-short-term-rental-prices:/app/build-ml-pipeline-for-short-term-rental-prices
+    working_dir: /app/build-ml-pipeline-for-short-term-rental-prices
+    command: python main.py
+    environment:
+      - PYTHONPATH=/app

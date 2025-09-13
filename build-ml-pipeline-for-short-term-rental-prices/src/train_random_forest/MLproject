@@ -1,0 +1,25 @@
+name: train_random_forest
+
+entry_points:
+  main:
+    parameters:
+      trainval_path: {type: str}
+      output_model_path: {type: str}
+      max_tfidf_features: {type: int}
+      n_estimators: {type: int}
+      max_depth: {type: str}
+      max_features: {type: float}
+      min_samples_split: {type: int}
+      min_samples_leaf: {type: int}
+      random_seed: {type: int}
+    command: >
+      python run.py
+      --trainval_path {trainval_path}
+      --output_model_path {output_model_path}
+      --max_tfidf_features {max_tfidf_features}
+      --n_estimators {n_estimators}
+      --max_depth {max_depth}
+      --max_features {max_features}
+      --min_samples_split {min_samples_split}
+      --min_samples_leaf {min_samples_leaf}
+      --random_seed {random_seed}

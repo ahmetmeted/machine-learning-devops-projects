@@ -1,0 +1,74 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>API Documentation - Example</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; background-color: #f6f8fa; }
+            .container { max-width: 1000px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+            .header { background-color: #0070f3; color: white; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+            .endpoint { background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 4px solid #0070f3; }
+            .method { background-color: #28a745; color: white; padding: 5px 10px; border-radius: 3px; display: inline-block; margin-right: 10px; }
+            .path { font-family: monospace; font-size: 16px; }
+            pre { background-color: #e8e8e8; padding: 15px; border-radius: 5px; overflow-x: auto; }
+            .example { background-color: #fff3cd; padding: 15px; border-radius: 5px; margin: 10px 0; border-left: 4px solid #ffc107; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>📚 Census Income Prediction API Documentation</h1>
+                <p>Interactive API Documentation with Examples</p>
+            </div>
+            
+            <div class="endpoint">
+                <h2><span class="method">GET</span><span class="path">/</span></h2>
+                <p>Root endpoint with welcome message and API information.</p>
+            </div>
+            
+            <div class="endpoint">
+                <h2><span class="method">POST</span><span class="path">/predict</span></h2>
+                <p>Predict income based on census data.</p>
+                
+                <div class="example">
+                    <h3>Example Request Body:</h3>
+                    <pre>{
+  "age": 45,
+  "workclass": "Private",
+  "fnlgt": 2334,
+  "education": "Bachelors",
+  "education-num": 13,
+  "marital-status": "Married-civ-spouse",
+  "occupation": "Exec-managerial",
+  "relationship": "Husband",
+  "race": "White",
+  "sex": "Male",
+  "capital-gain": 15000,
+  "capital-loss": 0,
+  "hours-per-week": 40,
+  "native-country": "United-States"
+}</pre>
+                </div>
+                
+                <div class="example">
+                    <h3>Example Response:</h3>
+                    <pre>{
+  "prediction": 1,
+  "prediction_label": ">50K"
+}</pre>
+                </div>
+            </div>
+            
+            <div class="endpoint">
+                <h2><span class="method">GET</span><span class="path">/docs</span></h2>
+                <p>Interactive API documentation (Swagger UI).</p>
+            </div>
+            
+            <div class="endpoint">
+                <h2><span class="method">GET</span><span class="path">/openapi.json</span></h2>
+                <p>OpenAPI schema definition.</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    

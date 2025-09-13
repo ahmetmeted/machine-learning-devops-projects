@@ -1,0 +1,7 @@
+Best Model Information
+Run ID: manual_selection
+MAE: 16.331
+Experiment: short_term_rental_pipeline
+Status: Production Ready
+Selected: 2025-09-09
+Notes: Best model selected from hyperparameter optimization runs

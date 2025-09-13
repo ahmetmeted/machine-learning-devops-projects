@@ -1,0 +1,11 @@
+id,name,host_id,host_name,neighbourhood_group,neighbourhood,latitude,longitude,room_type,price,minimum_nights,number_of_reviews,last_review,reviews_per_month,calculated_host_listings_count,availability_365
+1001,Cozy Apartment in Manhattan,1234,John,Manhattan,Upper East Side,40.7500,-73.9500,Entire home/apt,200,3,50,2019-06-15,4.2,1,200
+1002,Private Room Near Central Park,5678,Sarah,Manhattan,Upper West Side,40.7800,-73.9800,Private room,150,2,30,2019-07-20,3.5,2,180
+1003,Modern Studio in Brooklyn,9012,Mike,Brooklyn,Williamsburg,40.7000,-73.9500,Entire home/apt,120,1,25,2019-08-10,2.8,1,365
+1004,Shared Room in Queens,3456,Lisa,Queens,Astoria,40.7500,-73.9000,Shared room,80,1,15,2019-05-30,1.5,3,100
+1005,Luxury Suite in Manhattan,7890,David,Manhattan,Midtown,40.7600,-73.9700,Entire home/apt,300,4,75,2019-09-05,5.0,1,150
+1006,Charming Room in Brooklyn,2468,Emma,Brooklyn,Park Slope,40.6700,-73.9800,Private room,110,2,20,2019-06-25,2.0,2,250
+1007,Spacious Apartment in Queens,1357,Tom,Queens,Long Island City,40.7500,-73.9500,Entire home/apt,180,3,40,2019-07-15,3.2,1,300
+1008,Cozy Room in Manhattan,9753,Anna,Manhattan,East Village,40.7300,-73.9900,Private room,140,2,35,2019-08-20,3.8,1,120
+1009,Modern Loft in Brooklyn,8642,Chris,Brooklyn,DUMBO,40.7000,-73.9900,Entire home/apt,250,2,60,2019-09-10,4.5,1,200
+1010,Quiet Room in Queens,7531,Maria,Queens,Forest Hills,40.7200,-73.8500,Private room,90,1,10,2019-05-15,1.0,4,80

@@ -1,0 +1,115 @@
+Model Performance on Education Slices
+==================================================
+
+Education: Bachelors
+  Count: 5044
+  Accuracy: 0.9605
+  Precision: 0.9606
+  Recall: 0.9605
+  F1-Score: 0.9606
+
+Education: HS-grad
+  Count: 9840
+  Accuracy: 0.9726
+  Precision: 0.9722
+  Recall: 0.9726
+  F1-Score: 0.9721
+
+Education: 11th
+  Count: 1048
+  Accuracy: 0.9885
+  Precision: 0.9887
+  Recall: 0.9885
+  F1-Score: 0.9879
+
+Education: Masters
+  Count: 1627
+  Accuracy: 0.9545
+  Precision: 0.9545
+  Recall: 0.9545
+  F1-Score: 0.9545
+
+Education: 9th
+  Count: 455
+  Accuracy: 0.9846
+  Precision: 0.9849
+  Recall: 0.9846
+  F1-Score: 0.9834
+
+Education: Some-college
+  Count: 6678
+  Accuracy: 0.9709
+  Precision: 0.9707
+  Recall: 0.9709
+  F1-Score: 0.9707
+
+Education: Assoc-acdm
+  Count: 1008
+  Accuracy: 0.9663
+  Precision: 0.9661
+  Recall: 0.9663
+  F1-Score: 0.9662
+
+Education: 7th-8th
+  Count: 557
+  Accuracy: 0.9910
+  Precision: 0.9911
+  Recall: 0.9910
+  F1-Score: 0.9907
+
+Education: Doctorate
+  Count: 375
+  Accuracy: 0.9573
+  Precision: 0.9577
+  Recall: 0.9573
+  F1-Score: 0.9575
+
+Education: Assoc-voc
+  Count: 1307
+  Accuracy: 0.9648
+  Precision: 0.9647
+  Recall: 0.9648
+  F1-Score: 0.9645
+
+Education: Prof-school
+  Count: 542
+  Accuracy: 0.9815
+  Precision: 0.9815
+  Recall: 0.9815
+  F1-Score: 0.9815
+
+Education: 5th-6th
+  Count: 288
+  Accuracy: 0.9931
+  Precision: 0.9931
+  Recall: 0.9931
+  F1-Score: 0.9928
+
+Education: 10th
+  Count: 820
+  Accuracy: 0.9927
+  Precision: 0.9927
+  Recall: 0.9927
+  F1-Score: 0.9925
+
+Education: Preschool
+  Count: 45
+  Accuracy: 0.9778
+  Precision: 1.0000
+  Recall: 0.9778
+  F1-Score: 0.9888
+
+Education: 12th
+  Count: 377
+  Accuracy: 0.9894
+  Precision: 0.9892
+  Recall: 0.9894
+  F1-Score: 0.9892
+
+Education: 1st-4th
+  Count: 151
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1-Score: 1.0000
+

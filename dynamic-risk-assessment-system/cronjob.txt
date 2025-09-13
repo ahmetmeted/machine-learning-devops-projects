@@ -1,0 +1,2 @@
+*/10 * * * * cd /workspace/dynamic-risk-assessment-system && python fullprocess.py >> /workspace/dynamic-risk-assessment-system/cron.log 2>&1
+

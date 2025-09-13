@@ -1,0 +1,25 @@
+name: basic_cleaning
+
+entry_points:
+  main:
+    parameters:
+      input_path: {type: str}
+      output_path: {type: str}
+      min_price: {type: float}
+      max_price: {type: float}
+      apply_geofence: {type: str, default: "false"}
+      lon_min: {type: float}
+      lon_max: {type: float}
+      lat_min: {type: float}
+      lat_max: {type: float}
+    command: >
+      python run.py
+      --input_path {input_path}
+      --output_path {output_path}
+      --min_price {min_price}
+      --max_price {max_price}
+      --apply_geofence {apply_geofence}
+      --lon_min {lon_min}
+      --lon_max {lon_max}
+      --lat_min {lat_min}
+      --lat_max {lat_max}

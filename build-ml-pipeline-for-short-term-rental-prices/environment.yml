@@ -1,0 +1,21 @@
+name: nyc_airbnb_dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pandas=1.2.3
+  - scikit-learn=1.0.2
+  - numpy=1.21.5
+  - matplotlib=3.5.1
+  - seaborn=0.11.2
+  - jupyter=1.0.0
+  - ipykernel=6.9.1
+  - pandas-profiling=3.2.0
+  - hydra-core=1.1.1
+  - omegaconf=2.1.1
+  - mlflow=2.0.1
+  - pip:
+    - wandb==0.16.1
+    - python-dotenv==1.0.0

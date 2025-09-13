@@ -1,0 +1,11 @@
+name: get_data
+
+entry_points:
+  main:
+    parameters:
+      input_filename: {type: str}
+      output_path: {type: str}
+    command: >
+      python run.py
+      --input_filename {input_filename}
+      --output_path {output_path}

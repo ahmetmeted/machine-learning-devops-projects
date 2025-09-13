@@ -1,0 +1,9 @@
+name: short_term_rental_pipeline
+
+entry_points:
+  main:
+    parameters:
+      steps: {type: str, default: "download,basic_cleaning,data_check,train_val_test_split,train_random_forest"}
+      hydra_options: {type: str, default: ""}
+    command: >
+      export STEPS={steps}; python main.py

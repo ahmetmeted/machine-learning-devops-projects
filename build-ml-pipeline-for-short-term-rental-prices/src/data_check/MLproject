@@ -1,0 +1,17 @@
+name: data_check
+
+entry_points:
+  main:
+    parameters:
+      csv_path: {type: str}
+      min_rows: {type: int}
+      max_rows: {type: int}
+      min_price: {type: float}
+      max_price: {type: float}
+    command: >
+      python run.py
+      --csv_path {csv_path}
+      --min_rows {min_rows}
+      --max_rows {max_rows}
+      --min_price {min_price}
+      --max_price {max_price}

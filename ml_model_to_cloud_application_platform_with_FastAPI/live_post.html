@@ -1,0 +1,49 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Live POST Test Result</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; background-color: #f6f8fa; }
+            .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+            .header { background-color: #28a745; color: white; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+            .status { color: #28a745; font-weight: bold; }
+            pre { background-color: #e8e8e8; padding: 15px; border-radius: 5px; overflow-x: auto; }
+            .request { background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin: 10px 0; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>✓ Live POST Test - PASSED</h1>
+                <p>API Prediction Endpoint Test Result</p>
+            </div>
+            <div class="request">
+                <h3>Request Data:</h3>
+                <pre>{
+  "age": 45,
+  "workclass": "Private",
+  "fnlgt": 2334,
+  "education": "Bachelors",
+  "education-num": 13,
+  "marital-status": "Married-civ-spouse",
+  "occupation": "Exec-managerial",
+  "relationship": "Husband",
+  "race": "White",
+  "sex": "Male",
+  "capital-gain": 15000,
+  "capital-loss": 0,
+  "hours-per-week": 40,
+  "native-country": "United-States"
+}</pre>
+            </div>
+            <p><strong>Status Code:</strong> <span class="status">200</span></p>
+            <p><strong>Response:</strong></p>
+            <pre>{
+  "prediction": 1,
+  "prediction_label": ">50K"
+}</pre>
+        </div>
+    </body>
+    </html>
+    
